@@ -2,6 +2,8 @@
 
 ## Overview
 
+This project investigates trends in terrorism using the [Global Terrorism Database](https://www.start.umd.edu/data-tools/GTD) (GTD), a large open-source database made available by the University of Maryland. The GTD contains information on over 200,000 incidents of terrorism from the 1970s through 2020. 
+
 This project investigates global terrorism trends using comprehensive big data analytics and interactive visualization tools. Utilizing the Global Terrorism Database (GTD)—the most extensive open-source collection of global terrorist incident data—this analysis identifies patterns, geographic hotspots, and strategic insights, aiding policymakers, analysts, and researchers in counterterrorism efforts.
 
 ---
@@ -31,18 +33,47 @@ Big_Data_Analysis_Visualization-Global_Terrorism_Dataset-7153CEM/
 
 **Context:**
 
-* Data on over 180,000 terrorist attacks globally.
-* Maintained by the National Consortium for the Study of Terrorism and Responses to Terrorism (START).
+* Data on over 200,000 terrorist attacks globally.
+* Maintained by the National Consortium for the Study of Terrorism and Responses to Terrorism (START) at the University of Maryland.
 
 **Content:**
 
 * **Geography:** Worldwide
-* **Time Period:** 1970–2017 (excluding 1993)
+* **Time Period:** 1970–2020 
 * **Unit of Analysis:** Individual terrorist attacks
 * **Variables:** Over 100 detailed variables, including location, attack type, perpetrators, targets, and outcomes
 * **Data Sources:** Primarily unclassified media reports
 
+**Key Metadata Fields:**
+
+| Field Name        | Description                                     | Data Type |
+| ----------------- | ----------------------------------------------- | --------- |
+| `eventid`         | Unique identifier for each terrorist incident.  | Integer   |
+| `iyear`           | Year of the incident.                           | Integer   |
+| `imonth`          | Month of the incident.                          | Integer   |
+| `iday`            | Day of the incident.                            | Integer   |
+| `country`         | Country where the incident occurred.            | String    |
+| `country_txt`     | Full country name.                              | String    |
+| `region`          | Region where the incident occurred.             | Integer   |
+| `region_txt`      | Full region name.                               | String    |
+| `provstate`       | Province or state where the incident occurred.  | String    |
+| `city`            | City where the incident occurred.               | String    |
+| `latitude`        | Latitude of the incident location.              | Float     |
+| `longitude`       | Longitude of the incident location.             | Float     |
+| `attacktype1`     | Primary type of attack (coded as integer).      | Integer   |
+| `attacktype1_txt` | Description of the primary attack type.         | String    |
+| `targtype1`       | Primary target type (coded as integer).         | Integer   |
+| `targtype1_txt`   | Description of the primary target type.         | String    |
+| `gname`           | Name of the perpetrator group, if known.        | String    |
+| `nkill`           | Number of fatalities (victims) in the incident. | Float     |
+| `nwound`          | Number of non-fatal injuries in the incident.   | Float     |
+| `weaptype1`       | Primary weapon type (coded as integer).         | Integer   |
+| `weaptype1_txt`   | Description of the primary weapon type.         | String    |
+| `summary`         | Brief summary description of the incident.      | String    |
+
+
 ---
+**⚠️ Note:** The GTD includes many additional fields beyond those listed above, including information on motives, specific attack and target details, property damage, and hostages.
 
 ## 🔧 Setup and Installation Instructions
 
@@ -168,8 +199,12 @@ Open `Visualizations.twbx` in Tableau Public to explore interactive dashboards p
 
 ---
 
-## 📊 Results
+## 📊 Analysis Insights
+
+
+## 📓 Executive Summary
 
 * **Interactive HTML Visualizations** provide geographic, temporal, and categorical insights.
 * **Tableau Dashboard** enables in-depth analytical exploration of terrorism data.
 * Interpret analytical insights detailed in visualizations and Tableau dashboard for comprehensive strategic understanding.
+
