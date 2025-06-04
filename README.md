@@ -6,6 +6,8 @@ This project investigates trends in terrorism using the [Global Terrorism Databa
 
 This project investigates global terrorism trends using comprehensive big data analytics and interactive visualization tools. Utilizing the Global Terrorism Database (GTD)—the most extensive open-source collection of global terrorist incident data—this analysis identifies patterns, geographic hotspots, and strategic insights, aiding policymakers, analysts, and researchers in counterterrorism efforts.
 
+Please note that due to its large size, the raw data file must be downloaded from Kaggle using this link: https://www.kaggle.com/datasets/START-UMD/gtd.
+
 ---
 
 ## 📁 Project Structure
@@ -14,7 +16,7 @@ This project investigates global terrorism trends using comprehensive big data a
 Big_Data_Analysis_Visualization-Global_Terrorism_Dataset-7153CEM/
 │
 ├── Big_Data_Analysis_and_Data_Visualization.ipynb  # Jupyter Notebook for PySpark analysis and visualization
-├── globalterrorismdb_0718dist.csv                  # Raw Global Terrorism Dataset
+├── globalterrorismdb_0718dist.csv                  # Raw Global Terrorism Dataset (Must be separately downloaded from Kaggle)
 ├── choropleth_attacks_by_country.html              # Interactive choropleth map showing attacks by country
 ├── choropleth_fatalities_by_country.html           # Interactive choropleth map showing fatalities by country
 ├── global_terrorism_clusters.html                  # HTML visualization of terrorism clusters
@@ -129,6 +131,8 @@ Install necessary Python packages:
 pip install -r requirements.txt
 ```
 
+Also download the csv file from the GTD dataset on Kaggle: https://www.kaggle.com/datasets/START-UMD/gtd and save it to your working directory.
+
 ### Step 4: Launch Jupyter Notebook on Azure
 
 Run Jupyter Notebook remotely on Azure cloud:
@@ -201,6 +205,11 @@ Open `Visualizations.twbx` in Tableau Public to explore interactive dashboards p
 
 ## 📊 Analysis Insights
 
+## 🖥️ Interactive Dashboard
+
+Below is a screenshot of the Tableau dashboard, which gives breaks down attacks based on their target region, attack type, perpetrating group, and choice of weapons. It allows users to easily identify geographic locations that are hotspots for terrorist attacks, which can allow policymakers to optimize their protection efforts to the right areas. 
+
+![Tableau Dashboard](./assets/dashboard.jpg)
 
 ## 📓 Executive Summary
 
