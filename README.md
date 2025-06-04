@@ -205,15 +205,33 @@ Open `Visualizations.twbx` in Tableau Public to explore interactive dashboards p
 
 ## 📊 Analysis Insights
 
+The Jupyter notebook creates several visualizations that show trends in terrorism over time, and patterns across factors such as the type of attack, target, and geographic location. Below is a time-series that shows the total number of attacks, total fatalities, and total wounded over the years. While all three figures trend upwards over time, the total casualties (wounded + killed) rise faster than the number of attacks, indicating an rise in lethality (i.e. deaths per attack) over time.
+
+![Trends in Terrorism Over Time](./assets/attack_casualty_timeseries.png)
+
+The notebook generates a combination counts diagram to identify which targets are most frequently associated with specific attack types
+
+![](./assets/combination_counts.png)
+
+Additional visualizations are included to provide further insight into the dataset. For instance, a word cloud is created for attack types, where more frequently occurring types appear in larger font size.
+
+![Word Cloud](./assets/wordcloud.png)
+
+Geographic visualizations are also featured. The example below maps incidents involving one of the top three attack types, helping to highlight regions that are particularly susceptible to methods such as bombings.
+
+![](./assets/top3attack.png)
+
 ## 🖥️ Interactive Dashboard
 
-Below is a screenshot of the Tableau dashboard, which gives breaks down attacks based on their target region, attack type, perpetrating group, and choice of weapons. It allows users to easily identify geographic locations that are hotspots for terrorist attacks, which can allow policymakers to optimize their protection efforts to the right areas. 
+The Tableau dashboard (previewed below) breaks down terrorist incidents by target region, attack type, perpetrating group, and weapon used. This interactive tool enables users to easily identify geographic hotspots for terrorist activity, supporting policymakers in prioritizing and optimizing regional security efforts.
 
 ![Tableau Dashboard](./assets/dashboard.jpg)
 
 ## 📓 Executive Summary
 
 * **Interactive HTML Visualizations** provide geographic, temporal, and categorical insights.
-* **Tableau Dashboard** enables in-depth analytical exploration of terrorism data.
-* Interpret analytical insights detailed in visualizations and Tableau dashboard for comprehensive strategic understanding.
-
+* **Tableau Dashboard** Tableau Dashboard offers an in-depth, interactive exploration of trends in global terrorism.
+* **Regional Focus**: Since 2010, the Middle East and South Asia have emerged as the primary regions affected by terrorist attacks.
+* **Weapons Used**: Explosives remain the most commonly used weapons, followed closely by firearms.
+* **Lethality Trends**: The average number of casualties per attack has shown a rising trend over time, increasing from less than 1.0 in 1970 to roughly 5.0 in 2020.
+* **Top Perpetrating Groups**: The Islamic State of Iraq and the Levant (ISIL), the Taliban, and Al-Shabaab are responsible for approximately 18% of all attacks with known perpetrators.
