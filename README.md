@@ -208,6 +208,7 @@ Open `Visualizations.twbx` in Tableau Public to explore interactive dashboards p
 The Jupyter notebook creates several visualizations that show trends in terrorism over time, and patterns across factors such as the type of attack, target, and geographic location. Below is a time-series that shows the total number of attacks, total fatalities, and total wounded over the years. While all three figures trend upwards over time, the total casualties (wounded + killed) rise faster than the number of attacks, indicating an rise in lethality (i.e. deaths per attack) over time.
 
 ![Trends in Terrorism Over Time](./assets/attack_casualty_timeseries.png)
+![Trends in Terrorism Over Time](./assets/lethality.png)
 
 The notebook generates a combination counts diagram to identify which targets are most frequently associated with specific attack types
 
@@ -233,5 +234,5 @@ The Tableau dashboard (previewed below) breaks down terrorist incidents by targe
 * **Tableau Dashboard** Tableau Dashboard offers an in-depth, interactive exploration of trends in global terrorism.
 * **Regional Focus**: Since 2010, the Middle East and South Asia have emerged as the primary regions affected by terrorist attacks.
 * **Weapons Used**: Explosives remain the most commonly used weapons, followed closely by firearms.
-* **Lethality Trends**: The average number of casualties per attack has shown a rising trend over time, increasing from less than 1.0 in 1970 to roughly 5.0 in 2020.
+* **Lethality Trends**: The average number of casualties per attack increased from less than 1.0 in 1970 to a peak of around 5.0 in the early 2000s, with particularly high levels between 1997 and 2007. Fortunately, lethality has declined in more recent years.
 * **Top Perpetrating Groups**: The Islamic State of Iraq and the Levant (ISIL), the Taliban, and Al-Shabaab are responsible for approximately 18% of all attacks with known perpetrators.
