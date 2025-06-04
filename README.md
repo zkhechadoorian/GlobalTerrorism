@@ -191,7 +191,7 @@ Run `Big_Data_Analysis_and_Data_Visualization.ipynb` within Jupyter Notebook for
 
 ### Step 2:
 
-View the interactive `.html` files directly in your local browser for further insights.
+View the interactive `.html` files directly in your local browser for further insights. (Note: Once the files are open, you must click 'Trust HTML' to load each image.)
 
 ### Step 3:
 
