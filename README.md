@@ -1,12 +1,20 @@
 # 📊 Project Title: **Global Terrorism Analysis: Big Data Insights using PySpark and Tableau**
 
 ## Overview
+![Tableau Dashboard](./assets/dashboard.jpg)
 
-This project investigates trends in terrorism using the [Global Terrorism Database](https://www.start.umd.edu/data-tools/GTD) (GTD), a large open-source database made available by the University of Maryland. The GTD contains information on over 200,000 incidents of terrorism from the 1970s through 2020. 
+This project investigates trends in terrorism using the [Global Terrorism Database](https://www.start.umd.edu/data-tools/GTD) (GTD), the most extensive open-source collection of global terrorist incident data, made available by the University of Maryland. The GTD contains information on over 200,000 incidents ranging from the 1970s through 2020. 
 
-This project investigates global terrorism trends using comprehensive big data analytics and interactive visualization tools. Utilizing the Global Terrorism Database (GTD)—the most extensive open-source collection of global terrorist incident data—this analysis identifies patterns, geographic hotspots, and strategic insights, aiding policymakers, analysts, and researchers in counterterrorism efforts.
+Please note that due to its large size, the raw data file is not included in this repository and must be instead be downloaded from Kaggle using this link: https://www.kaggle.com/datasets/START-UMD/gtd.
 
-Please note that due to its large size, the raw data file must be downloaded from Kaggle using this link: https://www.kaggle.com/datasets/START-UMD/gtd.
+### Business Value:
+1. **Saving Lives**: By identifying high-risk regions, attack patterns, and emerging threats, this application empowers policymakers, security agencies, and researchers to implement proactive counterterrorism strategies, ultimately reducing casualties and preventing future attacks.
+   
+2. **Cost Reduction**: The insights generated can help governments, insurance companies, and reconstruction agencies minimize the financial burden of post-attack rehabilitation and infrastructure rebuilding. By understanding attack trends, stakeholders can allocate resources more efficiently and mitigate risks before incidents occur.
+
+3. **Time Efficiency**: The interactive dashboards and visualizations streamline the analysis process, enabling faster decision-making for emergency response teams, urban planners, and policymakers. This reduces delays in deploying resources and rebuilding affected areas.
+
+
 
 ---
 
@@ -79,18 +87,17 @@ Big_Data_Analysis_Visualization-Global_Terrorism_Dataset-7153CEM/
 
 ## 🔧 Setup and Installation Instructions
 
+### Step 1: Download the Repository
 
-**⚠️ Note:** These steps must be executed on the server to ensure proper setup and functionality.
-
-### Step 1: Connect to the Server
-
-Use the following command to connect to the server:
+Clone the repository to your local machine using the following command:
 
 ```bash
-ssh -i /path/to/private_key username@your.azure.server.ip
+git clone https://github.com/zkhechadoorian/Mitigating-Costs-And-Preventing-Casualties-From-Global-Terrorism.git
 ```
 
-Once connected, proceed with the setup steps below.
+Replace `your-username` and `your-repository-name` with the appropriate values for your GitHub repository. Alternatively, you can download the repository as a ZIP file from GitHub and extract it to your desired location.
+
+---
 
 ### Optional: Simplified Setup with `run.sh`
 
